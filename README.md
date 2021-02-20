@@ -14,7 +14,7 @@
 
 
 ## שיעור 1 - סימולציות בני הדייג
-$$X_t$$
+<a href="https://www.codecogs.com/eqnedit.php?latex=X\sim\text{Pois}(\lambda)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?X\sim\text{Pois}(\lambda)" title="X\sim\text{Pois}(\lambda)" /></a>
 בשיעור 1 פתרנו תרגיל על דייג שמוציא דגים בקצב פואסוני ומשחרר אחוז מסוים מתוכם חזרה לים, באקראי.
 נראה באמצעות סימולציה מהי התפלגות הדגים שהוא לוקח איתו.
 כמו כן, נחקור את התפלגות המחסור היומי בדגים ונבין כמה זה עולה לנו.
