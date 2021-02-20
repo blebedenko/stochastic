@@ -7,7 +7,7 @@
 לרוב, נכתוב פונקציות עזר לסימולציה ואז נחקור אותה באמצעותן.
 נשתדל לרכז את התוצאות [באפליקציית שייני של הקורס](https://zztop.shinyapps.io/Stochastic/).
 אפשר להפעיל את האפליקציה דרך Rstudio. לשם כך יש להריץ את הפקודה :
-`shiny::runGitHub("Stochastic","blebedenko")` (שימו לב שצריך להתקין את הספריה shiny)
+`shiny::runGitHub("Stochastic","blebedenko")` (שימו לב שצריך להתקין את הספריה `shiny` קודם באמצעות הרצת הפקודה `install.packages("shiny")`.
 
 בהצלחה,
 בוריס
