@@ -20,6 +20,9 @@ ui <- dashboardPage(
     header =     dashboardHeader(),
     body = dashboardBody(
         withMathJax(""),
+        titlePanel("Stochastic Models shiny app"),
+        h5("You can download all the functions by pressing the button"),
+        downloadButton("download_script","Download script"),
         fluidRow(
             box(
                 h4("Input for Benny the fisherman"),
@@ -99,6 +102,12 @@ server <- function(input, output) {
         p2 <- tableGrob(tab,theme =ttheme_default(base_size = 20))
         grid.arrange(p1,p2)
     }
+    )
+    output$download_script <- downloadHandler(
+        filename = "functions.R",
+        content = function(file){
+            renderV("functions.R")
+        }
     )
     
     
